@@ -1,0 +1,33 @@
+Exp 6c: Program to empty an array
+<script>
+function emptyArray(arr) {
+// substituting new array
+arr = [];
+return arr;
+}
+const array = [1, 2 ,3];
+document.write(array);
+// call the function
+const result = emptyArray(array);
+document.write(result);
+</script>
+Output:
+1,2,3
+
+
+
+Exp 6c: Program to empty an array: Method 2
+<script>
+function emptyArray(arr) {
+// substituting new array
+arr.splice(0, arr.length);
+return arr;
+}
+const array = [1, 2 ,3];
+document.write(array);
+// call the function
+const result = emptyArray(array);
+document.write(result);
+</script>
+Output:
+1,2,3
