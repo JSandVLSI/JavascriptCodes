@@ -31,3 +31,20 @@ document.write(result);
 </script>
 Output:
 1,2,3
+
+
+Exp 6c: program to empty an array: Method 3
+<script>
+function emptyArray(arr) {
+// setting array length to 0
+arr.length = 0;
+return arr;
+}
+const array = [1, 2 ,3];
+document.write(array);
+// call the function
+const result = emptyArray(array);
+document.write(result);
+</script>
+Output:
+1,2,3
